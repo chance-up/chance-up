@@ -247,7 +247,7 @@
     <!-- Hi, I'm XXX -->
     <g transform="translate(10, 0)" class="msg-1 bubble">
         <rect width="160" height="42" rx="18.0355"/>
-        <text x="15" y="27">Hello</text>
+        <text x="15" y="27">Hello, im chance-up</text>
     </g>
 
     <!-- typing 2 -->
