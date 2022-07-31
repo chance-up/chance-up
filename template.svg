@@ -247,7 +247,7 @@
     <!-- Hi, I'm XXX -->
     <g transform="translate(10, 0)" class="msg-1 bubble">
         <rect width="160" height="42" rx="18.0355"/>
-        <text x="15" y="27">Hello, I'm doljae.</text>
+        <text x="15" y="27">Hello</text>
     </g>
 
     <!-- typing 2 -->
@@ -325,7 +325,7 @@
         <text x="15" y="27">
             <!--      You can find me on-->
             <!--      <a xlink:href="https://abit.ly/jypthemiracle">https://abit.ly/jypthemiracle</a>-->
-            Usually I spend my spare time reading and exercising.
+            test.
         </text>
     </g>
 
@@ -350,7 +350,7 @@
     <!-- Thanks -->
     <g transform="translate(10, 240)" class="msg-5">
         <rect width="225" height="42" rx="18.0355" class="bubble"/>
-        <text x="15" y="27">Thanks for stopping by,</text>
+        <text x="15" y="27">test,</text>
     </g>
 
     <!-- typing 6 -->
