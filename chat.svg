@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    width="550"
-   height="370"
-   viewBox="0 0 550 370"
+   height="510"
+   viewBox="0 0 550 510"
    fill="none"
    version="1.1"
    id="svg136"
@@ -63,46 +63,39 @@
 
         .typing-2 {
         opacity: 0;
-        animation: wait 3.0s, fade-in-out 1.5s 3.6s;
+        animation: wait 3.0s, fade-in-out 1.5s 3.0s;
         }
         .msg-2 {
-        animation: wait 5.3s, msg-2 0.2s 5.3s;
+        animation: wait 4.5s, msg-2 0.2s 4.5s;
         }
         .msg-2-1 {
-        animation: wait 6.1s, msg-2-1 0.2s 6.1s;
+        animation: wait 5.3s, msg-2-1 0.2s 5.3s;
         }
 
 
         .typing-3 {
         opacity: 0;
-        animation: wait 7.1s, fade-in-out 1.5s 7.1s;
+        animation: wait 6.0s, fade-in-out 1.5s 6.0s;
         }
         .msg-3 {
-        animation: wait 6.7s, msg-3 0.2s 6.7s;
+        animation: wait 7.5s, msg-3 0.2s 7.5s;
+        }
+        .msg-3-1 {
+        animation: wait 8.3s, msg-3-1 0.2s 8.3s;
+        }
+        .msg-3-2 {
+        animation: wait 9.3s, msg-3-2 0.2s 9.3s;
         }
 
         .typing-4 {
         opacity: 0;
-        animation: wait 7.5s, fade-in-out 1.5s 7.5s;
+        animation: wait 10.0s, fade-in-out 1.5s 10.0s;
         }
         .msg-4 {
-        animation: wait 9.2s, msg-4 0.2s 9.2s;
+        animation: wait 11.5s, msg-4 0.2s 11.5s;
         }
-
-        .typing-5 {
-        opacity: 0;
-        animation: wait 10s, fade-in-out 1.5s 10s;
-        }
-        .msg-5 {
-        animation: wait 11.7s, msg-5 0.2s 11.7s;
-        }
-
-        .typing-6 {
-        opacity: 0;
-        animation: wait 12.5s, fade-in-out 1.5s 12.5s;
-        }
-        .msg-6 {
-        animation: wait 14.2s, msg-6 0.2s 14.2s;
+        .msg-4-1 {
+        animation: wait 12.3s, msg-4-1 0.2s 12.3s;
         }
 
         @keyframes wait {
@@ -134,11 +127,11 @@
         @keyframes msg-1-1 {
         0% {
         opacity: 0;
-        transform: translate(300px, 55px);
+        transform: translate(270px, 55px);
         }
         100% {
         opacity: 1;
-        transform: translate(300px, 50px);
+        transform: translate(270px, 50px);
         }
         }
         @keyframes msg-2 {
@@ -174,23 +167,45 @@
         @keyframes msg-3-1 {
         0% {
         opacity: 0;
-        transform: translate(245px, 255px);
+        transform: translate(70px, 285px);
         }
         100% {
         opacity: 1;
-        transform: translate(245px, 250px);
+        transform: translate(70px, 280px);
         }
         }
+        @keyframes msg-3-2 {
+        0% {
+        opacity: 0;
+        transform: translate(140px, 365px);
+        }
+        100% {
+        opacity: 1;
+        transform: translate(140px, 360px);
+        }
+        }
+
         @keyframes msg-4 {
         0% {
         opacity: 0;
-        transform: translate(10px, 197px);
+        transform: translate(10px, 415px);
         }
         100% {
         opacity: 1;
-        transform: translate(10px, 192px);
+        transform: translate(10px, 410px);
         }
         }
+        @keyframes msg-4-1 {
+        0% {
+        opacity: 0;
+        transform: translate(250px, 465px);
+        }
+        100% {
+        opacity: 1;
+        transform: translate(250px, 460px);
+        }
+        }
+
         @keyframes msg-5 {
         0% {
         opacity: 0;
@@ -328,9 +343,9 @@
     </g>
 
     <!-- Hi, I'm XXX -->
-    <g transform="translate(300, 50)" class="msg-1-1 bubble">
-        <rect width="245" height="42" rx="18.0355"  style="fill:#7bf384;"/>
-        <text x="15" y="27">i'm chansub in South Korea</text>
+    <g transform="translate(270, 50)" class="msg-1-1 bubble">
+        <rect width="265" height="42" rx="18.0355"  style="fill:#7bf384;"/>
+        <text x="15" y="27">i'm chansub in South Korea🇰🇷</text>
     </g>
 
    <!-- typing 2 -->
@@ -357,7 +372,7 @@
 
    <!-- t’s supposed to be -->
     <g transform="translate(245, 150)" class="msg-2-1 bubble">
-        <rect width="300" height="66.1302" rx="18.0355" class="bubble" style="fill:#7bf384;"/>
+        <rect width="290" height="66.1302" rx="18.0355" class="bubble" style="fill:#7bf384;"/>
         <text x="15" y="27">it’s supposed to be 91° F (33° C)</text>
         <text x="15" y="50">and <tspan class="emoji">👋</tspan> today.</text>
     </g>
@@ -380,14 +395,53 @@
 
     </g>
 
-    <!-- Work ... -->
-    <g transform="translate(10, 230)" class="msg-3">
-        <rect width="400" height="66.1302" rx="18.0355" class="bubble"/>
-        <text x="15" y="27">I’m Server-Side Engineer using Java &amp; Spring.</text>
-        <text x="15" y="50">But lately, I've been interested in Kotlin.</text>
+    <!-- What do you do? -->
+    <g transform="translate(10, 230)" class="msg-3 bubble">
+        <rect width="170" height="42" rx="18.0355"/>
+        <text x="15" y="27">What do you do?</text>
     </g>
 
+    <!-- Work ... -->
+    <g transform="translate(70, 280)" class="msg-3-1">
+        <rect width="468" height="66.1302" rx="18.0355" class="bubble" style="fill:#7bf384;" />
+        <text x="15" y="27">I’m Client-Side Engineer using Typescript &amp; Javascript.</text>
+        <text x="15" y="50">Lately I'm interested in Kotlin for Android.</text>
+    </g>
 
+    <g transform="translate(140, 360)" class="msg-3-2 bubble">
+        <rect width="395" height="42" rx="18.0355"  style="fill:#7bf384;"/>
+        <text x="15" y="27">I have a passionate but calm personality.🇰🇷🇰🇷</text>
+    </g>
+
+    <!-- typing 4 -->
+    <g transform="translate(10, 410)" class="typing-4">
+        <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble"/>
+        <circle cx="13.591" cy="33.091" r="7.68185" class="bubble"/>
+        <circle cx="3.54547" cy="41.9547" r="3.54547" class="bubble"/>
+
+        <circle cx="27.4778" cy="20.9773" r="5.02275" fill="#999999">
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="42.8411" cy="20.9773" r="5.02275" fill="#999999">
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="58.2054" cy="20.9773" r="5.02275" fill="#999999">
+            <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" begin="0.4s" repeatCount="indefinite"/>
+        </circle>
+    </g>
+
+        <!-- Twitter -->
+    <g transform="translate(10, 410)" class="msg-4">
+        <rect width="230" height="42" rx="18.0355" class="bubble"/>
+        <text x="15" y="27">
+            It was nice talking to you.
+        </text>
+    </g>
+
+    <g transform="translate(250, 460)" class="msg-4-1 bubble">
+        <rect width="285" height="42" rx="18.0355"  style="fill:#7bf384;"/>
+        <text x="15" y="27">Me too. Have a good Monday!🇰🇷</text>
+    </g>
 
 
 </svg>

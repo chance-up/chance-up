@@ -1,7 +1,18 @@
+const WEATHER_API_KEY = process.env.WEATHER_API_KEY
+
 let fs = require('fs')
+let weather = require('openweather-apis')
+
+weather.setLang('en')
+weather.setCoordinate(37.517235, 127.047325)
+weather.setUnits('imperial')
+weather.setAPPID(WEATHER_API_KEY)
 
 module.exports.someFunction = function () {
     console.log('hi');
+    console.log(process.env.WEATHER_API_KEY);
+
+
     fs.writeFileSync('test.txt', 'hi')
 };
 
