@@ -1,20 +1,13 @@
 name: chance-update
-on:
-  push:
-    branches: [ main ]
+on: [push]
 
 jobs:
   GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          node-version: 14
-      - run: npm install
-      
-      - name: Generate readme
-        env:
-          WEATHER_API_KEY: ${{ secrets.openWeatherApiKey }}
-          run: npm run myScript
+          node-version: '14'
+      - run: npm install -g bats
+      - run: bats -v
