@@ -1,5 +1,9 @@
 name: chance-update
-on: [push]
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   GitHub-Actions:
@@ -15,3 +19,13 @@ jobs:
         env:
           WEATHER_API_KEY: ${{ secrets.OPEN_WEATHER_API_KEY }}
         run: npm run myScript
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: chance-up
+          author_email: ccs6473@naver.com
+          message: 'Auto updating my readme'
+          add: '*.svg'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_ACCESS_TOKEN }}
