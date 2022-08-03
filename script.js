@@ -26,6 +26,7 @@ const https = require('https');
 let fs = require('fs');
 
 module.exports.getWhether = function () {
+  console.log('cccccc', WEATHER_API_KEY);
   let url = `https://api.openweathermap.org/data/2.5/weather?lat=${LATITUDE}&lon=${LONGITUDE}&units=${UNITS}&appid=${WEATHER_API_KEY}`;
 
   https.get(url, (res) => {
