@@ -17,5 +17,5 @@ jobs:
       
       - name: Generate readme
         env:
-          WEATHER_API_KEY: ${{ openWeatherApiKey }}
+          WEATHER_API_KEY: ${{ secrets.openWeatherApiKey }}
         run: npm run myScript
