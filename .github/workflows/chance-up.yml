@@ -7,9 +7,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with:
+      - with:
           node-version: '14'
       - run: npm install
-        env:
+      - env:
           WEATHER_API_KEY: ${{ secrets.OPEN_WEATHER_API_KEY }}
       - run: npm run myScript
