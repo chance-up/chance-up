@@ -1,4 +1,4 @@
-const WEATHER_API_KEY = 'ec6f5d604e8b554869bbe10db54a9fb4';
+const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 const LONGITUDE = '127.02861';
 const LATITUDE = '37.26389';
 const UNITS = 'imperial';
