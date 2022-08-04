@@ -1,4 +1,4 @@
 <center>
-<img src="https://github.com/chance-up/chance-up/blob/main/chatting.svg" width="100%" height="100%" />
+<img src="https://github.com/chance-up/chance-up/blob/main/chatting.svg" width="70%" height="80%" />
 </center>
 
