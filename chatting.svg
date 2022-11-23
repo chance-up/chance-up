@@ -167,21 +167,22 @@
         @keyframes msg-3-1 {
         0% {
         opacity: 0;
-        transform: translate(70px, 285px);
+        transform: translate(145px, 285px);
         }
         100% {
         opacity: 1;
-        transform: translate(70px, 280px);
+        transform: translate(145
+        px, 280px);
         }
         }
         @keyframes msg-3-2 {
         0% {
         opacity: 0;
-        transform: translate(140px, 365px);
+        transform: translate(225px, 365px);
         }
         100% {
         opacity: 1;
-        transform: translate(140px, 360px);
+        transform: translate(225px, 360px);
         }
         }
 
@@ -373,8 +374,8 @@
    <!-- t’s supposed to be -->
     <g transform="translate(245, 150)" class="msg-2-1 bubble">
         <rect width="290" height="66.1302" rx="18.0355" class="bubble" style="fill:#7bf384;"/>
-        <text x="15" y="27">it’s supposed to be 65° F (18° C)</text>
-        <text x="15" y="50">and <tspan class="emoji">☀️</tspan> today.</text>
+        <text x="15" y="27">it’s supposed to be 55° F (13° C)</text>
+        <text x="15" y="50">and <tspan class="emoji">☁️</tspan> today.</text>
     </g>
 
      <!-- typing 3 -->
@@ -402,15 +403,15 @@
     </g>
 
     <!-- Work ... -->
-    <g transform="translate(70, 280)" class="msg-3-1">
-        <rect width="468" height="66.1302" rx="18.0355" class="bubble" style="fill:#7bf384;" />
-        <text x="15" y="27">I’m Client-Side Engineer using Typescript &amp; Javascript.</text>
-        <text x="15" y="50">Lately I'm interested in Kotlin for Android.</text>
+    <g transform="translate(145, 280)" class="msg-3-1">
+        <rect width="390" height="66.1302" rx="18.0355" class="bubble" style="fill:#7bf384;" />
+        <text x="15" y="27">I’m Web Developer using Vue.js &amp; Typescript.</text>
+        <text x="15" y="50">Lately I'm interested in DevOps Engineering</text>
     </g>
 
-    <g transform="translate(140, 360)" class="msg-3-2 bubble">
-        <rect width="395" height="42" rx="18.0355"  style="fill:#7bf384;"/>
-        <text x="15" y="27">I have a passionate but calm personality.🔥🚣</text>
+    <g transform="translate(225, 360)" class="msg-3-2 bubble">
+        <rect width="310" height="42" rx="18.0355"  style="fill:#7bf384;"/>
+        <text x="15" y="27">Like AWS, Docker🐳 &amp; Kubernetes☸ </text>
     </g>
 
     <!-- typing 4 -->
@@ -440,7 +441,7 @@
 
     <g transform="translate(210, 460)" class="msg-4-1 bubble">
         <rect width="325" height="42" rx="18.0355"  style="fill:#7bf384;"/>
-        <text x="15" y="27">Me too. Have a good Sunday!🥲</text>
+        <text x="15" y="27">Me too. Have a good Wednesday!🫢</text>
     </g>
 
 
