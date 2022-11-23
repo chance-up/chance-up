@@ -52,7 +52,7 @@ replaceFileData = function (whetherData) {
     data = data.replace('{weatherIcon}', WEATHER_ICON[whetherData.weather[0].icon]);
     data = data.replace('{weekDay}', WEEK_DAY[new Date().getDay()]);
 
-    console.log('debug - weatherIcon', whetherData.weather[0].icon]);
+    console.log('debug - weatherIcon', whetherData.weather[0].icon);
     console.log('debug - weekday', new Date().getDay());
     console.log('debug - weekday', new Date());
 
