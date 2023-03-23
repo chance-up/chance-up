@@ -167,22 +167,21 @@
         @keyframes msg-3-1 {
         0% {
         opacity: 0;
-        transform: translate(145px, 285px);
+        transform: translate(195px, 285px);
         }
         100% {
         opacity: 1;
-        transform: translate(145
-        px, 280px);
+        transform: translate(195px, 280px);
         }
         }
         @keyframes msg-3-2 {
         0% {
         opacity: 0;
-        transform: translate(225px, 365px);
+        transform: translate(275px, 365px);
         }
         100% {
         opacity: 1;
-        transform: translate(225px, 360px);
+        transform: translate(275px, 360px);
         }
         }
 
@@ -374,8 +373,8 @@
    <!-- t’s supposed to be -->
     <g transform="translate(245, 150)" class="msg-2-1 bubble">
         <rect width="290" height="66.1302" rx="18.0355" class="bubble" style="fill:#7bf384;"/>
-        <text x="15" y="27">it’s supposed to be 73° F (23° C)</text>
-        <text x="15" y="50">and <tspan class="emoji">☁️</tspan> today.</text>
+        <text x="15" y="27">it’s supposed to be 72° F (22° C)</text>
+        <text x="15" y="50">and <tspan class="emoji">🌦</tspan> today</text>
     </g>
 
      <!-- typing 3 -->
@@ -403,15 +402,15 @@
     </g>
 
     <!-- Work ... -->
-    <g transform="translate(145, 280)" class="msg-3-1">
-        <rect width="390" height="66.1302" rx="18.0355" class="bubble" style="fill:#7bf384;" />
-        <text x="15" y="27">I’m Web Developer using Vue.js &amp; Typescript.</text>
-        <text x="15" y="50">Lately I'm interested in DevOps Engineering</text>
+    <g transform="translate(195, 280)" class="msg-3-1">
+        <rect width="340" height="66.1302" rx="18.0355" class="bubble" style="fill:#7bf384;" />
+        <text x="15" y="27">I’m Frontend Developer using JS &amp; TS.</text>
+        <text x="15" y="50">I am good at dealing with Vue &amp; React</text>
     </g>
 
-    <g transform="translate(225, 360)" class="msg-3-2 bubble">
-        <rect width="310" height="42" rx="18.0355"  style="fill:#7bf384;"/>
-        <text x="15" y="27">Like AWS, Docker🐳 &amp; Kubernetes☸ </text>
+    <g transform="translate(275, 360)" class="msg-3-2 bubble">
+        <rect width="260" height="42" rx="18.0355"  style="fill:#7bf384;"/>
+        <text x="15" y="27"> And I'm good at staying calm</text>
     </g>
 
     <!-- typing 4 -->
