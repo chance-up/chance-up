@@ -373,7 +373,7 @@
    <!-- t’s supposed to be -->
     <g transform="translate(245, 150)" class="msg-2-1 bubble">
         <rect width="290" height="66.1302" rx="18.0355" class="bubble" style="fill:#7bf384;"/>
-        <text x="15" y="27">it’s supposed to be 58° F (15° C)</text>
+        <text x="15" y="27">it’s supposed to be 62° F (17° C)</text>
         <text x="15" y="50">and <tspan class="emoji">☀️</tspan> today</text>
     </g>
 
@@ -440,7 +440,7 @@
 
     <g transform="translate(210, 460)" class="msg-4-1 bubble">
         <rect width="325" height="42" rx="18.0355"  style="fill:#7bf384;"/>
-        <text x="15" y="27">Me too. Have a good Saturday!😆</text>
+        <text x="15" y="27">Me too. Have a good Sunday!🥲</text>
     </g>
 
 
